@@ -1,0 +1,64 @@
+h1, h2, h3 {
+	    color: #3b63a8;
+		text-transform: uppercase;
+}
+
+strong {
+	color: #3b63a8;
+}
+
+.row h3::first-letter {
+	    font-size: 1.3em;
+}
+.row h3 {
+		font-size: 1.25em;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	    background-color: #c9dde7;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	    background-color: #c9dde7;
+}
+
+.navbar-default {
+	    background-color: #e1f1f9;
+		    border-color: #b9cdd7;
+}
+
+.dropdown-menu>li>a:hover {
+	    background-color: #d9edf7;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	    color: #3b63a8;
+}
+
+.navbar-default .navbar-nav>li>a {
+	    color: #3f90c2;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	    color: #3b63a8;
+}
+
+div.col-md-4>h3 {
+	    font-size: 24px;
+		    border-bottom: 3px solid #b9cdd7;
+}
+
+div.col-md-6>h3 {
+	    font-size: 24px;
+		    border-bottom: 3px solid #b9cdd7;
+}
+
+div.col-md-8>h3 {
+	    font-size: 24px;
+		    border-bottom: 3px solid #b9cdd7;
+}
+
+div.col-md-12>h3 {
+	    font-size: 24px;
+		    border-bottom: 3px solid #b9cdd7;
+}

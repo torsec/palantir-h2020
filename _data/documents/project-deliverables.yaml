@@ -1,0 +1,135 @@
+- date: m12
+  file: ''
+  leader: sph
+  number: '1.1'
+  status: co
+  title: POPD - Requirement No. 2
+
+- date: m30
+  file: ''
+  leader: sph
+  number: '1.2'
+  status: co
+  title: POPD - Requirement No. 5
+
+- date: m1
+  file: ''
+  leader: sph
+  number: '1.3'
+  status: co
+  title: POPD - Requirement No. 1
+
+- date: m6
+  file: 'SHIELD_D2.1_Requirements_KPIs_Design_and_Architecture_v1.0.pdf'
+  leader: hpelb
+  number: '2.1'
+  status: pu
+  title: Requirements, KPIs, design and architecture
+
+- date: m17
+  file: 'SHIELD_D2.2_Updated_requirements,_KPIs,_design_and_architecture_v.1.0.pdf'
+  leader: hpelb
+  number: '2.2'
+  status: pu
+  title: Updated requirements, KPIs, design and architecture
+
+- date: m18
+  file: 'SHIELD_D2.3_Business_models_evaluation_v.1.0.pdf'
+  leader: tid
+  number: '2.3'
+  status: co
+  title: Business models evaluation
+
+- date: m9
+  file: 'SHIELD_D3.1_Specifications,_Design_and_Architecture_for_the_vNSF_Ecosystem_v1.0.pdf'
+  leader: ubi
+  number: '3.1'
+  status: pu
+  title: Specifications, design and architecture for the vNSF ecosystem
+
+- date: m19
+  file: 'SHIELD_D3.2_Updated_specifications,_design_and_architecture_for_the_vNSF_ecosystem_v1.0.pdf'
+  leader: orion
+  number: '3.2'
+  status: pu
+  title: Updated specifications, design and architecture for the vNSF
+    ecosystem
+
+- date: m27
+  file: 'SHIELD_D3.3_vNSF_framework_ready_for_experiments_v1.0.pdf'
+  leader: i2cat
+  number: '3.3'
+  status: pu
+  title: vNSF framework ready for experiments
+
+- date: m9
+  file: 'SHIELD_D4.1_Specifications,_Design_and_Architecture_for_the_Usable_Information-Driven_Engine_v.1.0.pdf'
+  leader: i2cat
+  number: '4.1'
+  status: pu
+  title: Specifications, design and architecture for the usable
+    information-driven engine
+
+- date: m19
+  file: 'SHIELD_D4.2_Updated_specifications,_Design_and_Architecture_for_the_Usable_Information-Driven_Engine_v1.0.pdf'
+  leader: ubi
+  number: '4.2'
+  status: pu
+  title: Updated specifications, design and architecture for the usable
+    information-driven engine
+
+- date: m27
+  file: 'SHIELD_D4.3_Information-driven_engine_ready_for_experiments_v.1.0.pdf'
+  leader: infili
+  number: '4.3'
+  status: pu
+  title: Information-driven engine ready for experiments
+
+- date: m17
+  file: 'SHIELD_D5.1_Integration_results_of_SHIELD_HW-SW_modules_v.1.0.pdf'
+  leader: orion
+  number: '5.1'
+  status: pu
+  title: Integration results of SHIELD HW/SW modules
+
+- date: m30
+  file: 'SHIELD_D5.2_Final_demonstration,_roadmap_and_validation_results_v.1.0.pdf'
+  leader: sph
+  number: '5.2'
+  status: pu
+  title: Final demonstration, roadmap and validation results
+
+- date: m6
+  file: 'SHIELD_D6.1_Project_Dissemination_and_Communication_Plan_v.1.0.pdf'
+  leader: polito
+  number: '6.1'
+  status: pu
+  title: Project Dissemination and Communication Plan
+
+- date: m8
+  file: 'SHIELD_D6.2_Standardisation_Plan_v.1.0.pdf'
+  leader: tid
+  number: '6.2'
+  status: pu
+  title: Standardisation Plan
+
+- date: m15
+  file: 'SHIELD_D6.3_Interim_Report_on_Exploitation_Activities_v.1.0.pdf'
+  leader: incites
+  number: '6.3'
+  status: pu
+  title: Interim report on Exploitation Activities
+
+- date: m30
+  file: 'SHIELD_D6.4_Final_Report_on_Exploitation_Activities_v.1.0.pdf'
+  leader: incites
+  number: '6.4'
+  status: pu
+  title: Final report on Exploitation Activities
+
+- date: m3
+  file: 'SHIELD_D7.1_Project_Management_Handbook_v.1.0.pdf'
+  leader: sph
+  number: '7.1'
+  status: pu
+  title: Project management handbook

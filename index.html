@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<div class="row">
+
+
+<div class="col-md-8 col-xs-12">
+
+	<img class="img-responsive" src="{{'jumbotron.jpg' | prepend: '/img/' | prepend: site.baseurl }}"
+		title="SHIELD: Securing against intruders and other threats through a NFV-enabled environment"/>
+
+	<a class="btn btn-primary btn-lg" style="position:absolute;bottom:20%;left:10%;max-height:20%"
+		href="{{ 'summary.html' | prepend: '/about/' | prepend: site.baseurl }}"
+        title="Learn more about {{ site.title }}"
+		role="button">Learn more</a>
+</div>
+
+<div class="col-md-4 col-xs-12">
+
+    <h3>Latest news from SHIELD</h3>
+
+	{% capture today_date %}{{ 'now' | date: "%m/%d/%Y"}}{% endcapture %}
+	{% assign news_items = (site.news | sort: 'date') | reverse %}
+	{% for news in news_items limit:3 %}
+    <h5>
+	  {% capture news_date %}{{news.date | date: "%m/%d/%Y"}}{% endcapture %}
+	  {% if  today_date != news_date  %}
+      <span class="label label-primary">{{ news.date | date: "%b %-d, %Y" }}</span>
+	  {% else %}
+	  <span class="label label-primary">Today</span>
+	  {% endif %}
+      <a href="{{ news.url | prepend: site.baseurl }}" title="Read &quot;{{ news.title | escape_once }}&quot;">{{ news.title | truncate:25 | escape }}</a>
+    </h5>
+  {{ news.excerpt | strip_html | truncate:100 }}
+{% endfor %}
+	{% if site.news.size > 3 %}
+	<p>
+    <a  href="{{ site.baseurl | append: '/news/' }}" title="Get more news">More news...</a>
+	</p>
+	{% endif %}
+
+</div>
+
+</div>
+<div class="row">
+  <div class="col-md-4 col-xs-12">
+    <h3>Data Analysis and Remediation Engine (DARE)</h3>
+    <p class="text-justify">
+	An information-driven
+	<abbr title="Intrusion Detection and Prevention System">IDPS</abbr>
+	platform capable of predicting specific
+	vulnerabilities and attacks by relying on <strong>Big Data</strong>,
+	<strong>Threat Monitoring</strong> 	and <strong>Machine Learning</strong>
+	to analyise the output produced by vNSFs.
+	Pattern discovery techniques analyse data to identify current malicious
+	behaviours or predict likely threats. Analysis' results are accessible
+	by systems and security administrators via a dashboard.
+	</p>
+  </div>
+
+<div class="col-md-4 col-xs-12">
+    <h3>Network Functions Virtualisation (NFV) and virtual Network Security
+    Functions (vNSFs)</h3>
+    <p class="text-justify">
+	NFV enables the virtualisation of network and security
+	appliances. The resulting virtual appliances, named vNSFs, are
+	instantiated within the network infrastructure by a
+	<strong>vNSFs orchestrator</strong> in order to effectively
+	monitor and filter network traffic in a distributed manner.
+	Advertisement, browsing, selection and trading of
+	vNSFs in a secure manner is provided by a logically centralised
+	repository, named <strong>vNSFs store</strong>.
+
+	</p>
+  </div>
+
+  <div class="col-md-4 col-xs-12">
+	<h3>Trusted Computing (TC)</h3>
+	<p class="text-justify">
+	The <strong>trustworthiness</strong> of the secure SHIELD framework is
+	implemented by relying on TC technologies.
+	The infrastructure attestation binds the vNSFs and the
+	network configuration with the store and orchestration of the network.
+	The key components of the secure SHIELD framework will
+	be protected by using the <abbr title="Trusted Platform Module">TPM</abbr>,
+	a TC hardware that assures the integrity of the software and the
+	configuration.
+	</p>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-xs-12 col-md-offset-3">
+        <h3>Watch the SHIELD video</h3>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/z8b-TQi2fvs?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<br/>
+{% include partners-banner.html %}

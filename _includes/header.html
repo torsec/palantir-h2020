@@ -1,0 +1,38 @@
+<header class="navbar navbar-inverse {{ page.navbar | default: 'normal' }}"
+        role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse"
+              data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/" title="{{ site.title }}">{{ site.title }}</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+{% for item in site.data.nav %}
+  {% assign item_url = item | prepend:"/" | append:"/" %}
+
+  {% if (page.url contains item_url) %}
+    {% assign link_class = 'active' %}
+  {% else %}
+    {% assign link_class = '' %}
+  {% endif %}
+
+  {% assign p = site.pages | where:"url", item_url | first %}
+  {% if p.title %}
+  {% assign href = p.url | prepend: site.baseurl %}
+  {% if (item_url == '/docs/') %}
+    {% assign href = href | append: 'latest/' %}
+  {% endif %}
+        <li class="{{ link_class }}">
+          <a class="page-link" href="{{ href }}" title="{{ p.title }}">{{ p.title }}</a>
+        </li>
+  {% endif %}
+{% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

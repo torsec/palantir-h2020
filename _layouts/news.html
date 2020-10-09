@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% capture today_date %}{{'now' | date: "%m/%d/%Y"}}{% endcapture %}
+{% capture news_date %}{{page.date | date: "%m/%d/%Y"}}{% endcapture %}
+
+<div class="row">
+  <div style="text-align: justify; text-justify: inter-word;" 
+    class="col-md-9 col-sm-12">
+    <article>
+      <header>
+        <h1>{{ page.title }}
+		{% if today_date != news_date %}
+		<small>{{ page.date | date: "%b %-d, %Y" }}</small></h1>
+		{% else %}
+		<small>Today</small></h1>
+		{% endif %}
+	  </header>
+      <br/>
+	  {{ content }}
+    </article>
+	<br/>
+    <a target="blank"
+	  href="https://twitter.com/intent/tweet?text={{ page.title }}&url=https://www.shield-h2020.eu{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}&hashtags=shield-h2020,H2020"
+      class="btn btn-default btn-xs">
+	  <i class="fa fa-twitter" aria-hidden="true"></i>
+	</a>
+    <a target="blank"
+      href="https://www.linkedin.com/shareArticle?mini=True&title={{ page.title }}&url=https://www.shield-h2020.eu{{ page.url }}&source=SHIELD-H2020"
+      class="btn btn-default btn-xs">
+	  <i class="fa fa-linkedin" aria-hidden="true"></i>
+	</a>
+  </div>
+  <div class="col-sm-3 text-muted" style="font-size: 85%">
+    <h4>Other news</h4>
+
+{% assign news_items = (site.news | sort: 'date') | reverse %}
+{% if news_items.size > 1 %}
+{% for news in news_items %}
+	{% capture other_news_date %}{{news.date | date: "%m/%d/%Y"}}{% endcapture %}
+		{% unless news.title == page.title and other_news_date == news_date %}
+			<h5>
+			{% if other_news_date != today_date %}
+				<span class="label label-primary">{{ news.date | date: "%b %-d, %Y" }}</span>
+			{% else %}
+				<span class="label label-primary">Today</span>
+			{% endif %}
+			<a href="{{ news.url | prepend: site.baseurl }}" title="Read &quot;{{ news.title | escape_once }}&quot;">{{ news.title | truncate:25 | escape_once }}</a>
+			</h5>
+			{{ news.excerpt | strip_html | truncate:100 }}
+		{% endunless %}
+{% endfor %}
+{% else %}
+No other news available.
+{% endif %}
+  </div>
+</div>

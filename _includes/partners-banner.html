@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    {% assign partners = site.partners | sort:"weight" %}
+	{% for partner in partners %}
+	  <div class="col-sm-1 col-xs-4">
+	    <a href="{{ partner.url | prepend: site.baseurl }}" title="Go to &quot;{{ partner.title | escape_once }}&quot; page">
+        <img src="{{partner.partner | append: '.png' | prepend: '/img/thumbnails/' | prepend: site.baseurl }}"
+		  class="img-responsive"
+          alt="{{partner.title}} logo"
+		  title="Logo of &quot;{{partner.title}}&quot;"/>
+		</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+

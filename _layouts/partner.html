@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-sm-9 col-xs-12">
+    <article>
+      <header>
+        <h1>{{ page.title }}</h1>
+		<hr/>
+	  </header>
+
+	  <div class="row">
+		<div class="col-md-9 col-xs-12">
+		{{ content }}
+		 </div>
+		<div class="col-md-3 col-md-offset-0 col-xs-offset-4 col-xs-4">
+			<img alt="Logo of {{ site.data.partners[page.partner].fullname}}"
+			src="{{ page.partner | append: '.png' | prepend: '/img/logo/' | prepend: site.baseurl }}"
+			class="img-responsive"
+			title="{{ site.data.partners[page.partner].fullname}}"/>
+		</div>
+	  </div>
+
+	</article>
+  </div>
+ <div class="col-sm-3 col-xs-12 text-muted" style="font-size: 85%">
+    <h4>Other partners</h4>
+{% assign partners = site.partners | sort:"weight" %}
+{% for partner in partners %}
+	{% if partner.url != page.url %}
+
+		<h5>
+			<a href="{{ partner.url | prepend: site.baseurl }}" title="Go to &quot;{{ partner.title | escape_once }}&quot; page">{{ partner.title | escape_once }}</a>
+		 </h5>
+		{{ partner.excerpt | truncate:100 }}
+	{% endif %}
+{% endfor %}
+  </div>
+</div>

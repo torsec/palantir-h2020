@@ -1,0 +1,54 @@
+---
+title: Other documents
+layout: page
+---
+
+This page links a list of downloadable documents (e.g. presentations, posters)
+related to the SHIELD project.
+<br/>
+{% assign doc_items = (site.data.documents.other-documents | sort: 'date') | reverse %}
+<div class="table-responsive">
+  <table id="documents-table" class="table table-striped">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Title</th>
+        <th>Comment</th>
+        <th>Date</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tbody>
+{% for doc in doc_items %}
+      <tr>
+        <td>
+          <a href="{{ site.baseurl | append: '/documents/other-documents/' | append: doc.file }}"
+             class="btn btn-xs btn-success" role="button"
+             title="{{ site.title }} - {{ doc.title }}">
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </a>
+        </td>
+        <td><b>{{ doc.title }}</b></td>
+        <td><i>{{ doc.comment }}</i></td>
+        <td>{{ doc.date | date:"%Y/%m" }}</td>
+        <td>{{ doc.author }}</td>
+      </tr>
+{% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+$(document).ready(function() {
+  $('#documents-table').DataTable( {
+    "order": [[3, "asc"]],
+    "paging": false,
+    "info": false,
+    "searching": false,
+    "columnDefs": [ {
+      "targets": 0,
+      "sortable": false
+    } ]
+  } );
+} );
+</script>

@@ -1,0 +1,149 @@
+- title: "Enhanced IoT security through orchestrated policy enforcement gateways"
+  authors: H. Attak, L. Jacquin, A.L. Shaw, M. Casassa-Mont and Y. Beresna
+  date: 21-23 November 2016
+  how: Computer & Electronics Security Applications Rendez-vous (C&ESAR)
+  where: Rennes (France)
+  pages: 
+  file: CESAR2016_FINAL_full_paper.pdf
+  issn:
+  doi:
+
+- title: "SHIELD – Securing against intruders and other threats through a NFV-enabled environment"
+  authors: N. Papadakis, A. Litke and D. Papadopoulos
+  date: 25-26 May 2017
+  how: Operational Planning, technological Innovations and Mathematical applications, OPTIMA 2017 Conference
+  where: Athens (Greece)
+  pages: 
+  file: OPTIMA-SHIELD-abstract.pdf
+  issn:
+  doi:
+
+- title: "SHIELD: A Novel NFV-based Cybersecurity Framework"
+  authors: G. Gardikis, K. Tzoulas, K. Tripolitis, A. Bartzas, S. Costicoglou, B. Gastón, C. Fernández, C. Dávila, L. Jacquin, H. Attak, D. Katsianis, I. Neokosmidis, T. Batista, R. Preto, A. Lioy, A. Litke, N. Papadakis, D. Papadopoulos, A. Pastor, J. Nuñez, N. Davri, G. Xylouris, M. Kafetzakis, M. Terranova, C. Giustozzi, E. Trouva, Y. Angelopoulos and A. Kourtis
+  date: 3-7 July 2017
+  how: 3rd IEEE Conference on Network Softwarization (NetSoft 2017)
+  where: Bologna (Italy)
+  pages: 
+  file: SHIELD_a_novel_NFV-based_cybersecurity_framework.pdf
+  issn:
+  doi: 10.1109/NETSOFT.2017.8004228
+
+- title: "On the establishment of trust in the cloud-based ETSI NFV framework"
+  authors: M, De Benedictis and A. Lioy
+  date: 6-8 November 2017
+  how: SN-2017 - IEEE International Workshop on Security in NFV-SDN
+  where: Berlin (Germany)
+  pages: 
+  file: sn-2017-paper.pdf
+  issn:
+  doi: 10.1109/NFV-SDN.2017.8169864
+
+- title: "NFV-based network protection: the SHIELD approach"
+  authors: Lioy A., Gardikis G., Gaston B., Jacquin L., De Benedictis M., Angelopoulos Y. and Xylouris C.
+  date: 6-8 November 2017
+  how: NFV-SDN 2017 - IEEE Conference on Network Function Virtualization and Software Defined Networks
+  where: Berlin (Germany)
+  pages: 
+  file: nfvsdn2017-demo-paper.pdf
+  issn:
+  doi: 10.1109/NFV-SDN.2017.8169869
+
+- title: "SHIELD - Securing against intruders and other threats through a NFV-enabled environment"
+  authors: Attak H. et al.
+  date: 12 November 2017
+  where: Springer, Computer Communications and Networks series (CCN)
+  how: Guide to Security in SDN and NFV - Challenges, Opportunities, and Applications 
+  pages: 
+  file:
+  issn:
+  doi: 10.1007/978-3-319-64653-4_8
+
+- title: "Factors Influencing Market Adoption and Evolution of NFV/SDN Cybersecurity Solutions. Evidence from SHIELD Project "
+  authors: D. Katsianis, I. Neokosmidis, A. Pastor, L. Jacquin and G. Gardikis
+  date: 18-21 June 2018
+  how: European Conference on Networks and Communications (EuCNC) 2018
+  where: Ljubljana (Slovenia)
+  pages: 
+  file: eucnc2018_paper.pdf
+  issn:
+  doi: 10.1109/EuCNC.2018.8442845
+
+- title: "Container-based design of a Virtual Network Security Function"
+  authors: M. De Benedictis, A. Lioy and P. Smiraglia
+  date: 25-29 June 2018
+  how: 4th IEEE Conference on Network Softwarization (NetSoft 2018)
+  where: Montreal (Canada)
+  pages: 
+  file: netsoft2018_paper.pdf
+  issn:
+  doi: 10.1109/NETSOFT.2018.8459903
+
+- title: "The Mouseworld, a security traffic analysis lab based on NFV/SDN"
+  authors: A. Pastor, A. Mozo, D. Lopez, J. Folgueira and A. Kapodistria
+  date: 27-30 August 2018
+  how: ARES Conference 2018 (CyberTIM 2018)
+  where: Hamburg (Germany)
+  pages: 
+  file: CyberTIM2018_NFV_ML_training.pdf
+  issn:
+  doi: 10.1145/3230833.3233283
+
+- title: "Evaluation of Apache Spot’s machine learning capabilities in an SDN/NFV enabled environment "
+  authors: Christos M. Mathas, Olga E. Segou, Georgios Xylouris, Dimitris Christinakis, Michail - Alexandros Kourtis, Costas Vassilakis and Anastasios Kourtis
+  date: 27-30 August 2018
+  how: ARES Conference 2018 (CyberTIM 2018)
+  where: Hamburg (Germany)
+  pages: 
+  file: evaluation_apache_spot.pdf
+  issn:
+  doi: 10.1145/3230833.3233278
+
+- title: "Application of distributed computing and machine learning technologies to cybersecurity"
+  authors: Hamza Attak, Marc Combalia, Georgios Gardikis, Bernat Gastón, Ludovic Jacquin, Dimitris Katsianis, Antonis Litke, Nikolaos Papadakis, Dimitris Papadopoulos, Antonio Pastor, Marc Roig, Olga Segou
+  date: 19-21 November 2018
+  how: Computer & Electronics Security Applications Rendez-vous (C&ESAR)
+  where: Rennes (France)
+  pages: 
+  file: CESAR2018_paper.pdf
+  issn:
+  doi:
+
+- title: "Integrity verification of Docker containers for a lightweight cloud environment"
+  authors: Marco De Benedictis, Antonio Lioy
+  date: August 2019
+  how: Future Generation Computer Systems, Volume 97
+  where: Elsevier
+  pages: 236 - 246
+  file: 
+  issn: 0167-739X
+  doi: 10.1016/j.future.2019.02.026
+
+- title: "Adding Support for Automatic Enforcement of Security Policies in NFV Networks"
+  authors: C.Basile, F.Valenza, A.Lioy, D.R.Lopez, A.Pastor Perales
+  date: (accepted for publication)
+  how: IEEE/ACM Transactions on Networking 
+  where: IEEE
+  pages:
+  file: 
+  issn:
+  doi: 10.1109/TNET.2019.2895278
+
+- title: "A proposal for trust monitoring in a Network Functions Virtualisation Infrastructure"
+  authors: M. De Benedictis, A. Lioy
+  date: (accepted for publication)
+  how: 2019 1st Workshop on Cyber-Security Threats, Trust and Privacy Management in Software-Defined and Virtualized Infrastructures
+  where: Paris (France)
+  pages:
+  file: 
+  issn:
+  doi:
+
+- title: "Towards a secure and lightweight Network Function Virtualisation environment"
+  authors: M. De Benedictis, A. Lioy, P. Smiraglia
+  date: (accepted for publication)
+  how: International Journal of Grid and Utility Computing
+  where:
+  pages:
+  file: 
+  issn:
+  doi:
