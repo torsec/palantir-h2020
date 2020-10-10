@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SHIELD
-email: info@shield-h2020.eu
+title: PALANTIR
+email: info@palantir-h2020.eu
 description: > # this means to ignore newlines until "baseurl:"
   SHIELD proposes a NFV based solution for dynamically deploying virtual
   security infrastructures into ISP and corporate networks
-baseurl: "/shield-h2020" # the subpath of your site, e.g. /blog
+baseurl: "/palantir-h2020" # the subpath of your site, e.g. /blog
 url: "https://torsec.github.io" # the base hostname & protocol for your site
-twitter_username: shield_h2020
+twitter_username: palantir_h2020
 github_username:  jekyll
 
 # Build settings
@@ -40,6 +40,6 @@ google_analytics_id: UA-84944136-1
 sass:
   style: :compressed
 
-dataurl: "https://data.shield-h2020.eu"
+dataurl: "https://data.palantir-h2020.eu"
 
 future: true
