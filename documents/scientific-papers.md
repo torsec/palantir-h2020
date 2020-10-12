@@ -3,7 +3,7 @@ title: Scientific papers
 layout: page
 ---
 
-#### Papers published by the **SHIELD** project
+#### Papers published by the **PALANTIR** project
 
 
 {% assign doc_items = (site.data.documents.scientific-papers) %}
@@ -13,7 +13,7 @@ layout: page
 	<li>
 		{{ doc.authors }},
 		<b>
-		{% if doc.file  %} 
+		{% if doc.file  %}
 			<a href="{{ site.baseurl | append: '/documents/scientific-papers/' | append: doc.file }}" title="{{ site.title }} - {{ doc.title }}"> <i class="fa fa-globe" aria-hidden="true"></i> {{ doc.title }}</a>,
 		{% else %}
 			{{ doc.title i}},
@@ -31,13 +31,13 @@ layout: page
 			ISSN: {{ doc.issn }},
 		{% endif %}
 		{% if doc.doi %}
-			DOI: 
+			DOI:
 			<a href="{{ 'https://dx.doi.org/' | append: doc.doi }}"
 				title="{{ site.title }} - {{ doc.title }}">
 				<i class="fa fa-globe" aria-hidden="true"></i> {{ doc.doi }}
 			</a>
 		{% endif %}
-		
+
 	</li>
 
 {% endfor %}
