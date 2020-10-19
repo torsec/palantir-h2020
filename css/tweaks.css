@@ -1,10 +1,10 @@
 h1, h2, h3 {
-	    color: #3b63a8;
+	    color: #4a4a4b;
 		text-transform: uppercase;
 }
 
 strong {
-	color: #3b63a8;
+	color: #4a4a4b;
 }
 
 .row h3::first-letter {
@@ -23,8 +23,8 @@ strong {
 }
 
 .navbar-default {
-	    background-color: #e1f1f9;
-		    border-color: #b9cdd7;
+	    background-color: #f8f9fa;
+		    border-color: #9b9c9d;
 }
 
 .dropdown-menu>li>a:hover {
@@ -32,15 +32,15 @@ strong {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	    color: #3b63a8;
+	    color: #4a4a4b;
 }
 
 .navbar-default .navbar-nav>li>a {
-	    color: #3f90c2;
+	    color: #4a4a4b;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	    color: #3b63a8;
+	    color: #4a4a4b;
 }
 
 div.col-md-4>h3 {
