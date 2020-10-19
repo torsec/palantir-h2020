@@ -16,7 +16,7 @@
 title: PALANTIR
 email: info@palantir-h2020.eu
 description: > # this means to ignore newlines until "baseurl:"
-  The EU-funded PALANTIR project aims to implement a framework combining privacy assurance, data protection, incident detection and recovery aspects. 
+  The EU-funded PALANTIR project aims to implement a framework combining privacy assurance, data protection, incident detection and recovery aspects.
 baseurl: "/palantir-h2020" # the subpath of your site, e.g. /blog
 url: "https://torsec.github.io" # the base hostname & protocol for your site
 twitter_username: palantir_h2020
