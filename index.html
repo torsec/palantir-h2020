@@ -7,7 +7,7 @@ layout: default
 <div class="col-md-6 col-xs-12">
 
 	<img class="img-responsive" src="{{'jumbotron.png' | prepend: '/img/' | prepend: site.baseurl }}"
-		title="Palantir: something......"/>
+		title="Palantir"/>
 
 	<!-- <a class="btn btn-primary btn-lg" style="position:absolute;bottom:50%;left:50%;max-height:20%"
 		href="{{ 'summary.html' | prepend: '/about/' | prepend: site.baseurl }}"
@@ -19,25 +19,9 @@ layout: default
 
     <h3>Palantir Project</h3>
 
-	{% capture today_date %}{{ 'now' | date: "%m/%d/%Y"}}{% endcapture %}
-	{% assign news_items = (site.news | sort: 'date') | reverse %}
-	{% for news in news_items limit:3 %}
-    <h5>
-	  {% capture news_date %}{{news.date | date: "%m/%d/%Y"}}{% endcapture %}
-	  {% if  today_date != news_date  %}
-      <span class="label label-primary">{{ news.date | date: "%b %-d, %Y" }}</span>
-	  {% else %}
-	  <span class="label label-primary">Today</span>
-	  {% endif %}
-      <a href="{{ news.url | prepend: site.baseurl }}" title="Read &quot;{{ news.title | escape_once }}&quot;">{{ news.title | truncate:25 | escape }}</a>
-    </h5>
-  {{ news.excerpt | strip_html | truncate:100 }}
-{% endfor %}
-	{% if site.news.size > 3 %}
-	<p>
-    <a  href="{{ site.baseurl | append: '/news/' }}" title="Get more news">More news...</a>
+		<p class="text-justify">
+	The rapid advances in digital technology necessitate finding ways to ensure digital security and help small and medium-sized enterprises (SMEs) recover from cyberattacks. The EU-funded PALANTIR project aims to implement a framework combining privacy assurance, data protection, incident detection and recovery aspects. The project will also focus on cyber-resilience and ensure the SMEs' compliance with the relevant data privacy and protection regulations. The outcomes of the project will provide those enterprises with security tools that will boost their resilience at a reasonable cost.
 	</p>
-	{% endif %}
 
 </div>
 
