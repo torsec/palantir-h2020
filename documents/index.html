@@ -1,4 +1,0 @@
----
-title: Documents
-layout: page
----
