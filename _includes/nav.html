@@ -30,8 +30,11 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+      {% include social-networks-links.html %}
     </ul>
+
   </div>
+
 
   {% if site.navbar-extra %}
     {% for file in site.navbar-extra %}
@@ -48,5 +51,6 @@
       </div>
     </div>
   {% endif %}
+
 
 </nav>
