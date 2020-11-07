@@ -36,7 +36,7 @@ round-avatar: true
 
 description: > # this means to ignore newlines until "baseurl:"
   The EU-funded PALANTIR project aims to implement a framework combining privacy assurance, data protection, incident detection and recovery aspects.
-baseurl: "/palantir-h2020"
+baseurl: "/"
 url: "https://palantir.130.192.1.48.nip.io"
 
 
