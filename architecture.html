@@ -1,0 +1,24 @@
+---
+title: Architecture
+layout: base
+cover-img: "/img/cover7.jpg"
+---
+
+{% include header.html type="page" %}
+
+<!-- <h1 class="titlecustom">Architecture</h1> -->
+
+<p class="text-justify pcustom">The PALANTIR architecture creates a Closed-Loop Control environment (denoted below with arrows 1-2-3) among the SecaaS, Threat Intelligence and Security Service Orchestrator framework.</p>
+
+<ul class="pcustom">
+<li><strong>Threat Intelligence</strong> traces traffic from the network and VNFs through <strong>Distributed Collection</strong> (arrow “1”), analyses it for signs of malicious activity and outputs the detected anomalies to a Remediation Engine.</li>
+<li>The <strong>Remediation Engine</strong> proposes reactive measures against cyberattacks (security rules, new topologies etc) to the <strong>Security Service Orchestrator</strong> (arrow “2”).</li>
+<li>The <strong>Security Service Orchestrator</strong> pushes back selected actions and lifecycle management (LCM) messages to the running <strong>SecaaS</strong> (arrow “3”).</li>
+
+</ul>
+
+<p class="text-justify pcustom">The framework is designed for <strong>high availability and fault tolerance</strong>. Although organic links are formed among components and their outputs, the service-oriented approach does not create a single point of failure.  For example, a destructive fault in MANO will not affect the functionality of the Firewall service, other than e.g. prevent new upgrades to a running service for a limited time.</p>
+
+<div class="pcustom">
+<img src="{{ 'architecture' | append: '.png' | prepend: '/img/' | prepend: site.baseurl }}" alt="mission" class="responsive center" style="max-width: 80%">
+</div>

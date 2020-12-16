@@ -13,8 +13,27 @@ author: Politecnico di Torino
 
 # --- List of links in the navigation bar --- #
 
+firstnavbar-links:
+  Home: "index"
+  "&nbsp  The project  &nbsp":
+    - Mission: "mission"
+    - Objectives: "objectives"
+    - Technologies: "technologies"
+    - Collaboration: "collaboration"
+  "&nbsp   Deep dive   &nbsp":
+    - Work Packages: "workpackages"
+    - Architecture: "architecture"
+    - Use Cases: "usecases"
+    - Impact: "impact"
+  "&nbsp  Documents  &nbsp":
+    - Project's Deliverables: "documents/project-deliverables"
+#    - Scientific Papers: "documents/scientific-papers"
+#    - Other documents: "documents/other-documents"
+
 navbar-links:
-  Partners: "consortium"
+  News: "news"
+  Consortium: "consortium"
+  Subscribe: "subscribe"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
@@ -36,11 +55,11 @@ round-avatar: true
 
 description: > # this means to ignore newlines until "baseurl:"
   The EU-funded PALANTIR project aims to implement a framework combining privacy assurance, data protection, incident detection and recovery aspects.
-baseurl: "/"
+#baseurl: "/"
 url: "https://palantir.130.192.1.48.nip.io"
 
 # baseurl for local development
-#baseurl: "/palantir-h2020"
+baseurl: "/palantir-h2020"
 
 
 # --- Footer social media links --- #
@@ -225,6 +244,9 @@ collections:
   partners:
     output: true
     permalink: /partners/:title.html
+  news:
+    output: true
+    permalink: /news/:year-:month-:day-:title.html
 
 # Exclude these files from production site
 exclude:

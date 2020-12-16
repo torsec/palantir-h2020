@@ -1,0 +1,90 @@
+---
+title: Project's Deliverables
+layout: base
+cover-img: "/img/cover13.jpg"
+---
+
+{% include header.html type="page" %}
+
+<!-- <h1 class="titlecustom">Project's Deliverables</h1> -->
+
+<br/>
+<div class="pcustom">
+{% assign doc_items = (site.data.documents.project-deliverables | sort: 'number') %}
+<div class="table-responsive">
+  <table id="deliverables-table" class="table table-striped">
+    <thead>
+      <tr>
+        <th>Download</th>
+        <th>Number</th>
+        <th>Title</th>
+		<th>Dissemination level</th>
+        <th>Date</th>
+        <th>Leader</th>
+      </tr>
+    </thead>
+    <tbody>
+{% for doc in doc_items %}
+      <tr>
+        <td>
+  {% if doc.status == "re" or doc.status == "co" %}
+    {% assign btn_class = 'btn-danger' %}
+    {% assign base_url = '/p/documents/' %}
+  {% else %}
+    {% assign btn_class = 'btn-success' %}
+    {% assign base_url = '/documents/' %}
+    {% if doc.file != "" %}
+          <a href="{{ site.baseurl | append: base_url | append: 'project-deliverables/' | append: doc.file }}"
+             class="btn btn-xs {{ btn_class }}" role="button"
+             title="{{ site.title }} - {{ doc.number | prepend: 'D'}} - {{ doc.title }}">
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </a>
+    {% else %}
+          <button class="btn btn-xs btn-disabled">
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </button>
+    {% endif %}
+  {% endif %}
+        </td>
+        <td>{{ doc.number | prepend:'D' }}</td>
+        <td>{{ doc.title }}</td>
+		<td>{% if doc.status == "co" %}
+			<span class="label label-danger">Confidential</span>
+			{% endif %}
+			{% if doc.status == "pu" %}
+			<span class="label label-success">Public</span>
+			{% endif %}
+        <td>{{ site.data.months[doc.date] | date:"%Y/%m" }}</td>
+        <td>
+  {% if site.data.partners[doc.leader] %}
+    {% assign leader = site.data.partners[doc.leader].fullname %}
+    {% assign leader_url = site.data.partners[doc.leader].url %}
+          <a href="{{ leader_url | prepend:'/about/consortium' | prepend: site.baseurl  }}"
+             title="Go to &quot;{{ leader | escape_once }}&quot; page">
+             {{ leader | truncate:32 }}
+          </a>
+  {% else %}
+    {{ doc.leader }}
+  {% endif %}
+        </td>
+      </tr>
+{% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+$(document).ready(function() {
+  $('#deliverables-table').DataTable( {
+    "order": [[4, "asc"]],
+    "paging": false,
+    "info": false,
+    "searching": false,
+    "columnDefs": [ {
+      "targets": 0,
+      "sortable": false
+    } ]
+  } );
+} );
+</script>
+</div>

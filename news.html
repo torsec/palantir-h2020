@@ -1,0 +1,25 @@
+---
+title: News
+layout: base
+permalink: /news/
+cover-img: "/img/news.jpg"
+---
+
+{% include header.html type="page" %}
+
+<!-- <h1 class="titlecustom">Use cases</h1> -->
+<div class="pcustom">
+{% if site.news.size > 0 %}
+	{% assign news_items = (site.news | sort: 'date') | reverse %}
+	{% for news in news_items %}
+	<h4>
+	<a href="{{ news.url | prepend: site.baseurl }}" title="Read &quot;{{ news.title | escape_once }}&quot;">
+		{{ news.date | date: "%b %-d, %Y" }} | {{ news.title | escape_once }}
+	</a>
+	</h4>
+	{{ news.excerpt | strip_html }}
+	{% endfor %}
+{% else %}
+	There are no news available at the moment.
+{% endif %}
+</div>
