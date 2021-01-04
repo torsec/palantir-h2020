@@ -1,5 +1,40 @@
 - date: m4
   file: ''
+  leader: DBC
+  number: '8.2'
+  status: co
+  title: OPD - Requirement No. 2
+
+- date: m4
+  file: ''
+  leader: DBC
+  number: '8.1'
+  status: co
+  title: H - Requirement No. 1
+
+- date: m36
+  file: ''
+  leader: INCITES
+  number: '7.5'
+  status: co
+  title: Final Impact Creation Report
+
+- date: m24
+  file: ''
+  leader: INCITES
+  number: '7.4'
+  status: co
+  title: Intermediate Impact Creation Report
+
+- date: m12
+  file: ''
+  leader: INCITES
+  number: '7.3'
+  status: co
+  title: Initial Impact Creation Report
+
+- date: m4
+  file: ''
   leader: POLITO
   number: '7.2'
   status: pu
@@ -7,14 +42,126 @@
 
 - date: m3
   file: ''
-  leader: DBC
-  number: '1.1'
-  status: co
-  title: Project Handbook
-
-- date: m3
-  file: ''
   leader: INCITES
   number: '7.1'
   status: co
   title: Dissemination & Exploitation Plan
+
+- date: m36
+  file: ''
+  leader: ORION
+  number: '6.2'
+  status: pu
+  title: Integration & Validation Report&#58 Use case results and playbook (final prototype)
+
+- date: m22
+  file: ''
+  leader: SFERA
+  number: '6.1'
+  status: pu
+  title: Integration & Validation Report&#58 Use case results and playbook (first prototype)
+
+- date: m32
+  file: ''
+  leader: NEC
+  number: '5.2'
+  status: pu
+  title: Hybrid Threat Intelligence Framework - Second release
+
+- date: m17
+  file: ''
+  leader: INFILI
+  number: '5.1'
+  status: pu
+  title: Hybrid Threat Intelligence Framework - First release
+
+- date: m31
+  file: ''
+  leader: HPELB
+  number: '4.4'
+  status: pu
+  title: Trust, Attestation and Verification Framework - Specifications of second release
+
+- date: m31
+  file: ''
+  leader: SFERA
+  number: '4.3'
+  status: pu
+  title: Dashboard, Reporting and Threat Sharing Platform - Second release
+
+- date: m16
+  file: ''
+  leader: HPELB
+  number: '4.2'
+  status: pu
+  title: Trust, Attestation and Verification Framework - Specifications of first release
+
+- date: m16
+  file: ''
+  leader: UBITECH
+  number: '4.1'
+  status: pu
+  title: Dashboard, Reporting and Threat Sharing Platform - First release
+
+- date: m30
+  file: ''
+  leader: UMU
+  number: '3.2'
+  status: pu
+  title: PALANTIR Secure Services Ecosystem - Second release
+
+- date: m15
+  file: ''
+  leader: I2CAT
+  number: '3.1'
+  status: pu
+  title: PALANTIR Secure Services Ecosystem - First release
+
+- date: m20
+  file: ''
+  leader: INFILI
+  number: '2.4'
+  status: pu
+  title: Requirements & high-level design - Final
+
+- date: m20
+  file: ''
+  leader: HPELB
+  number: '2.3'
+  status: pu
+  title: Requirements & high-level design - Final
+
+- date: m6
+  file: ''
+  leader: INFILI
+  number: '2.2'
+  status: pu
+  title: Threat analysis & AS-based risk assessment
+
+- date: m6
+  file: ''
+  leader: HPELB
+  number: '2.1'
+  status: pu
+  title: Requirements & high-level design - Interim
+
+- date: m36
+  file: ''
+  leader: ORION
+  number: '1.3'
+  status: co
+  title: Management of Legal/Ethical aspects - Final
+
+- date: m12
+  file: ''
+  leader: ORION
+  number: '1.2'
+  status: co
+  title: Management of Legal/Ethical aspects - Interim
+
+- date: m3
+  file: ''
+  leader: DBC
+  number: '1.1'
+  status: co
+  title: Project Handbook
