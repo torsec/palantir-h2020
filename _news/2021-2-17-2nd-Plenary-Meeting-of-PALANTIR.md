@@ -1,9 +1,9 @@
 ---
-title: 2nd Plenary Meeting of PALANTIR
+title: 1st General Assembly Meeting of PALANTIR
 layout: news
 ---
 
-The 2nd Plenary Meeting of PALANTIR was realized on the 9th of February.
+The 1st General Assembly Meeting of PALANTIR was realized on the 9th of February.
 
 <!-- <div class="pcustom"> -->
 <img src="{{ '2021-2-17-news' | append: '.png' | prepend: '/img/' | prepend: site.baseurl }}" alt="GA" class="responsive center" style="max-width: 100%">
