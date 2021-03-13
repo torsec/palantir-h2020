@@ -7,18 +7,37 @@ cover-img: "https://www.palantir-project.eu/img/cover7.jpg"
 {% include header.html type="page" %}
 
 <!-- <h1 class="titlecustom">Architecture</h1> -->
+<h3 style="text-align: center;">PALANTIR Conceptual Solution</h3>
 
-<p class="text-justify pcustom">The PALANTIR architecture creates a Closed-Loop Control environment (denoted below with arrows 1-2-3) among the SecaaS, Threat Intelligence and Security Service Orchestrator framework.</p>
+<p class="text-justify pcustom">The PALANTIR architecture creates a <strong>closed-loop control environment</strong> among the Threat Intelligence and the Security Capabilities Orchestrator components through the enforcement of the SecaaS capabilities. </p>
 
 <ul class="pcustom">
-<li><strong>Threat Intelligence</strong> traces traffic from the network and VNFs through <strong>Distributed Collection</strong> (arrow “1”), analyses it for signs of malicious activity and outputs the detected anomalies to a Remediation Engine.</li>
-<li>The <strong>Remediation Engine</strong> proposes reactive measures against cyberattacks (security rules, new topologies etc) to the <strong>Security Service Orchestrator</strong> (arrow “2”).</li>
-<li>The <strong>Security Service Orchestrator</strong> pushes back selected actions and lifecycle management (LCM) messages to the running <strong>SecaaS</strong> (arrow “3”).</li>
+<li>The <strong>Threat Intelligence</strong> traces traffic from the network and VNFs through <strong>Distributed Collectors</strong>, analyses it for signs of malicious activity and outputs the detected anomalies to the Remediation Engine.</li>
+<li>The <strong>Remediation Engine</strong> proposes reactive measures against detected cyberattacks, using a custom modelling, to the Security Capabilities Orchestrator.</li>
+<li>The <strong>Security Capabilities Orchestrator</strong> interprets reactive measures and exerts specific actions and lifecycle management (LCM) messages to the SecaaS capabilities.</li>
 
 </ul>
 
-<p class="text-justify pcustom">The framework is designed for <strong>high availability and fault tolerance</strong>. Although organic links are formed among components and their outputs, the service-oriented approach does not create a single point of failure.  For example, a destructive fault in MANO will not affect the functionality of the Firewall service, other than e.g. prevent new upgrades to a running service for a limited time.</p>
+<p class="text-justify pcustom">The framework is designed for <strong>high availability and fault tolerance</strong>. Although organic links are formed among components and their outputs, the service-oriented approach does not create a single point of failure.  For example, a destructive fault in MANO will not affect the functionality of already running Firewall services, other than e.g. prevent new upgrades to such running service instances for a limited time.</p>
 
 <div class="pcustom">
-<img src="{{ 'architecture' | append: '.png' | prepend: '/img/' | prepend: site.baseurl }}" alt="mission" class="responsive center" style="max-width: 80%">
+<img src="{{ 'PALANTIR_architecture_annotated' | append: '.png' | prepend: '/img/' | prepend: site.baseurl }}" alt="architecture" class="responsive center" style="max-width: 80%">
+</div>
+
+<h2 style="text-align: center;">High level PALANTIR architecture</h2>
+
+<p class="text-justify pcustom">PALANTIR is built around the following main features:</p>
+
+<ul class="pcustom">
+<li>A <strong>Risk-based Analysis Framework</strong> that allows the quantification of security/privacy vulnerabilities and threats based on security/privacy impact assessment and its correlation with the attack surface analysis.</li>
+<li>A set of <strong>SecaaS capabilities</strong> to be dynamically enforced. Within them, security services are prominent. These are deployed as Virtual Network Functions (VNFs) upon request, thus creating <strong>Security-as-a-Service</strong>. The VNF approach allows perimeter defences (like firewalls, intrusion detection, etc) to be deployed in the order of seconds in PALANTIR.</li>
+<li>When a threat goes undetected by normal perimeter defences, the <strong>Threat Intelligence</strong> component provides additional protection via Machine Learning. A <strong>Remediation and Recommendation Module</strong> generates intelligible suggestions to address these security threats.</li>
+<li>A <strong>Trust, Attestation & Recovery</strong> component that periodically attests the infrastructure’s components for signs of compromise. It includes not only physical (computing hardware, switches, routers, etc) and virtual (containerised apps, VNFs or in general, instances of the SecaaS capabilities themselves) systems, but also conceptual artifacts (network topologies, etc).</li>
+<li>The <strong>Security Capabilities Orchestrator</strong> component deals with the instantiation, configuration and management of the security services and, in general, of the SecaaS capabilities; interacting with the key Management and Orchestration (MANO) tools, among others.</li>
+<li>A <strong>Security Capabilities Catalogue</strong> includes signed, trusted packages for the <strong>SecaaS capabilities</strong>, their security/privacy specifications, their billing information and other metadata (e.g. deployment templates) that are used upon instantiation by the MANO framework.</li>
+<li>The <strong>Accounting Dashboard</strong>, which provides account management per user role (e.g. for the service developers, PALANTIR providers and users). For instance, cybersecurity-related alerts and the status of running services are tracked in the <strong>Security Dashboard</strong>.</li>
+</ul>
+
+<div class="pcustom">
+<img src="{{ 'palantir_architecture_final' | append: '.png' | prepend: '/img/' | prepend: site.baseurl }}" alt="architecture" class="responsive center" style="max-width: 80%">
 </div>
