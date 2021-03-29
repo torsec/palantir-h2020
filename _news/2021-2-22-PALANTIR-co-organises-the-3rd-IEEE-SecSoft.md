@@ -43,5 +43,5 @@ Topics of interest include but are not limited to:
 <li> Workshop paper submission deadline: <s>February 12, 2021</s> <strong>March 5, 2021</strong></li>
 <li> Workshop paper acceptance: <strong>March 27, 2021</strong></li>
 <li> Camera-ready papers: <strong>April 11, 2021</strong></li>
-<li> Workshop date: <strong>July 2, 2020</strong></li>
+<li> Workshop date: <strong>July 2, 2021</strong></li>
 </ul>
