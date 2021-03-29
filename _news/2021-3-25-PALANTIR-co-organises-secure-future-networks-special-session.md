@@ -13,8 +13,6 @@ Secure Future Networks Special Session homepage: <a href="https://meditcom2021.i
 
 <h3>Topic of interests</h3>
 
-This Workshop aims to gather together novel approaches for providing organizations the appropriate situational awareness in relation to cyber security threats allowing them to quickly detect and effectively respond to sophisticated cyber-attacks.
-
 This special session aims at bringing together network and security engineers to discuss challenges associated to, but not limited to, the following topics:
 
 <ul>
