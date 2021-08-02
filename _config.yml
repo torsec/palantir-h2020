@@ -27,8 +27,8 @@ firstnavbar-links:
     - Impact: "impact"
   "&nbsp  Documents  &nbsp":
     - Project's Deliverables: "documents/project-deliverables"
-#    - Scientific Papers: "documents/scientific-papers"
-#    - Other documents: "documents/other-documents"
+    - Other documents: "documents/other-documents"
+#   - Scientific Papers: "documents/scientific-papers"
 
 navbar-links:
   News: "news"

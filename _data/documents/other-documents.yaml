@@ -1,5 +1,11 @@
-- title: "Example of pdf file"
+- title: "Leaflet nr. 1"
   author: PALANTIR consortium
-  date: 2020-12
-  file: DARE_documentation.pdf
-  comment: "Further info"
+  date: 2021-07
+  file: PALANTIR-leaflet-1.pdf
+  comment: "Scope and Motivation of PALANTIR project"
+
+- title: "Newsletter nr. 1"
+  author: PALANTIR consortium
+  date: 2021-07
+  file: PALANTIR-newsletter-1.pdf
+  comment: "The first PALANTIR's newsletter"
