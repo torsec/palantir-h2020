@@ -21,3 +21,9 @@
   date: 2022-01
   file: PALANTIR-newsletter-2.pdf
   comment: "PALANTIR newsletter nr. 2"
+
+- title: "Newsletter nr. 3"
+  author: UBI, SFERA, I2CAT, HPELB
+  date: 2022-03
+  file: PALANTIR-newsletter-3.pdf
+  comment: "Dashboard, Breach management, Service matching, Attestation"
