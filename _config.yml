@@ -28,7 +28,7 @@ firstnavbar-links:
   "&nbsp  Documents  &nbsp":
     - Project's Deliverables: "documents/project-deliverables"
     - Other documents: "documents/other-documents"
-#   - Scientific Papers: "documents/scientific-papers"
+    - Scientific Papers: "https://zenodo.org/communities/h2020_palantir_project/"
 
 navbar-links:
   News: "news"
