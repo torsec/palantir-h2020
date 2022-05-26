@@ -33,4 +33,15 @@
   date: 2022-03
   file: PALANTIR-poster-1.pdf
   comment: "Project description"
-  
+
+- title: "Leaflet nr. 3"
+  author: PALANTIR consortium
+  date: 2022-05
+  file: PALANTIR-leaflet-3.pdf
+  comment: "Secure Services"
+
+- title: "Newsletter nr. 3"
+  author: NEC, SPH, INFILI, POLITO
+  date: 2022-05
+  file: PALANTIR-newsletter-4.pdf
+  comment: "Data pre-processing, Anomaly Detection, Threat classification, Recommendation & Remediation"
