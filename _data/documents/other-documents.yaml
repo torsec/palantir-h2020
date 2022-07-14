@@ -45,3 +45,9 @@
   date: 2022-05
   file: PALANTIR-newsletter-4.pdf
   comment: "Data pre-processing, Anomaly Detection, Threat classification, Recommendation & Remediation"
+
+- title: "Leaflet nr. 4"
+  author: PALANTIR consortium
+  date: 2022-07
+  file: PALANTIR-leaflet-4.pdf
+  comment: "Threat Management and Sharing"
