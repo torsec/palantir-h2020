@@ -51,3 +51,15 @@
   date: 2022-07
   file: PALANTIR-leaflet-4.pdf
   comment: "Threat Management and Sharing"
+
+- title: "Newsletter nr. 5"
+  author: PALANTIR consortium
+  date: 2022-12
+  file: PALANTIR-newsletter-5.pdf
+  comment: "Integration and Use Cases"
+
+- title: "Leaflet nr. 5"
+  author: PALANTIR consortium 
+  date: 2022-12
+  file: PALANTIR-leaflet-5.pdf
+  comment: "Hybrid Threat Intelligence"
