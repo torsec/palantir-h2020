@@ -1,51 +1,9 @@
 - date: m4
   file: ''
-  leader: DBC
-  number: '8.2'
-  status: co
-  title: OPD - Requirement No. 2
-
-- date: m4
-  file: ''
-  leader: DBC
-  number: '8.1'
-  status: co
-  title: H - Requirement No. 1
-
-- date: m36
-  file: ''
-  leader: INCITES
-  number: '7.5'
-  status: co
-  title: Final Impact Creation Report
-
-- date: m24
-  file: ''
-  leader: INCITES
-  number: '7.4'
-  status: co
-  title: Intermediate Impact Creation Report
-
-- date: m12
-  file: ''
-  leader: INCITES
-  number: '7.3'
-  status: co
-  title: Initial Impact Creation Report
-
-- date: m4
-  file: ''
   leader: POLITO
   number: '7.2'
   status: pu
   title: Project website & social media accounts
-
-- date: m3
-  file: ''
-  leader: INCITES
-  number: '7.1'
-  status: co
-  title: Dissemination & Exploitation Plan
 
 - date: m36
   file: ''
@@ -55,7 +13,7 @@
   title: Integration & Validation Report&#58 Use case results and playbook (final prototype)
 
 - date: m22
-  file: ''
+  file: 'PALANTIR_D6.1__v1.0.pdf'
   leader: SFERA
   number: '6.1'
   status: pu
@@ -69,7 +27,7 @@
   title: Hybrid Threat Intelligence Framework - Second release
 
 - date: m17
-  file: ''
+  file: 'PALANTIR_D5.1_Hybrid_Threat_Intelligence_Framework_1st-release_v1.0_final.pdf'
   leader: INFILI
   number: '5.1'
   status: pu
@@ -90,78 +48,57 @@
   title: Dashboard, Reporting and Threat Sharing Platform - Second release
 
 - date: m16
-  file: ''
+  file: 'PALANTIR_D4.2_Trust_Attestation_and_Verification_Framework_v1.0_QA.pdf'
   leader: HPELB
   number: '4.2'
   status: pu
   title: Trust, Attestation and Verification Framework - Specifications of first release
 
 - date: m16
-  file: ''
+  file: 'PALANTIR_D4.1_PALANTIR-_First_Release.pdf'
   leader: UBITECH
   number: '4.1'
   status: pu
   title: Dashboard, Reporting and Threat Sharing Platform - First release
 
 - date: m30
-  file: ''
+  file: 'PALANTIR_D3.2-Secure-Services-Ecosystem_2nd-release_v1.0.pdf'
   leader: UMU
   number: '3.2'
   status: pu
   title: PALANTIR Secure Services Ecosystem - Second release
 
 - date: m15
-  file: ''
+  file: 'PALANTIR_D3.1_final.pdf'
   leader: I2CAT
   number: '3.1'
   status: pu
   title: PALANTIR Secure Services Ecosystem - First release
 
 - date: m20
-  file: ''
+  file: 'PALANTIR_D2.4_v1.0.pdf'
   leader: INFILI
   number: '2.4'
   status: pu
   title: Risk Reduction measures
 
 - date: m20
-  file: ''
+  file: 'PALANTIR_D2.3_Requirements_Architecture_v1.0.pdf'
   leader: HPELB
   number: '2.3'
   status: pu
   title: Requirements & high-level design - Final
 
 - date: m6
-  file: ''
+  file: 'PALANTIR_D2.2_final.pdf'
   leader: INFILI
   number: '2.2'
   status: pu
   title: Threat analysis & AS-based risk assessment
 
 - date: m6
-  file: ''
+  file: 'PALANTIR_D2.1_final.pdf'
   leader: HPELB
   number: '2.1'
   status: pu
   title: Requirements & high-level design - Interim
-
-- date: m36
-  file: ''
-  leader: ORION
-  number: '1.3'
-  status: co
-  title: Management of Legal/Ethical aspects - Final
-
-- date: m12
-  file: ''
-  leader: ORION
-  number: '1.2'
-  status: co
-  title: Management of Legal/Ethical aspects - Interim
-
-- date: m3
-  file: ''
-  leader: DBC
-  number: '1.1'
-  status: co
-  title: Project Handbook

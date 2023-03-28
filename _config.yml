@@ -20,6 +20,7 @@ firstnavbar-links:
     - Objectives: "objectives"
     - Technologies: "technologies"
     - Collaboration: "collaboration"
+    - Public Events: "public-event"
   "&nbsp   Deep dive   &nbsp":
     - Work Packages: "workpackages"
     - Architecture: "architecture"
