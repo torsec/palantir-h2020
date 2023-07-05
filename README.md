@@ -19,7 +19,8 @@ No trace about code??? Take a look in `gh-pages` branch.
 3.  Commit and push (if allowed...) your changes
 
         $ cd palantir-h2020
-        $ git commit -a -m "Added news"
+        $ git add .
+        $ git commit -m "Added news"
         $ git push origin gh-pages:gh-pages
 
 4.  That's all folks!
