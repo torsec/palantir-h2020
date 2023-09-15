@@ -78,7 +78,7 @@ social-network-links:
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-#  youtube: user/deanat78
+  youtube: "@palantirproject1339"
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -101,6 +101,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  youtube: true
   vk: false
 
 # How to display the link to your website in the footer
