@@ -3,7 +3,7 @@ title: Final event
 layout: news
 ---
 
-Don't miss the final event of the Palantir project on next 13th October!
+Don't miss the final event of the PALANTIR project on next 13th October!
 
 <a href="https://www.palantir-project.eu/documents/other-documents/PALANTIR_Final_Event_Agenda.pdf" class="fa fa-download">Click here to download the agenda!</a>
 
